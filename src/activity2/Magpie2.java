@@ -34,7 +34,16 @@ public class Magpie2
 		if (statement.indexOf("no") >= 0)
 		{
 			response = "Why so negative?";
+			
 		}
+		else if (statement.indexOf("cat") >= 0||statement.indexOf("dog") >= 0)
+              {
+              response = "Tell me more about your pet";
+                }
+                else if (statement.indexOf("omarinski") >= 0)
+               {
+                 response = "Koma Koma give me a diploma";
+              }
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
